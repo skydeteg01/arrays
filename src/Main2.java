@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         int[] arr1 = new int[3];
         for (int i = 0; i < arr1.length; i++) {
@@ -10,6 +10,8 @@ public class Main {
         int[] arr3 = {1, 7, 9};
         System.out.println(Arrays.toString(arr1));
         System.out.println(Arrays.toString(arr2));
-        System.out.println(Arrays.toString(arr3));
+        for (int i = 0; i < arr3.length; i++) {
+            System.out.print(arr3[i] + ", ");
+        }
     }
 }
